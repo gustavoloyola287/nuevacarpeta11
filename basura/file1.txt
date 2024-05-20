@@ -1,0 +1,15 @@
+#creo que es lenguaje C
+
+int main() {
+    int numero;
+    print("Ingrese su numero: ");
+    scanf("%d", &numero);
+    
+    if (numero % 2 == 0) {
+        print("%d es un numero par.\n", numero);
+    } else {
+        print("%d es un numero impar.\n", numero);
+    }
+    return 0;
+    
+}
